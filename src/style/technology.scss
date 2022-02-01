@@ -1,0 +1,81 @@
+.home{
+
+    .get-started-img{
+        position: absolute;
+
+        img{
+            width: 100vw;
+            height: 90vh;
+            position: relative;
+        }
+    }
+
+    .home-purple-background-text{
+        position: absolute;
+        display: grid;
+        justify-content: left;
+        align-items: center;
+        height: 90%;
+        padding-left: 50px;
+        width: 100%;
+
+        .tech{
+
+            
+            h2{
+                position:absolute;
+                
+                font-size: 4em;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                width: 25%;
+            }
+        }
+
+        .advantage{
+
+            
+            p{
+                position:absolute;
+                color: white;
+                font-size: 2em;
+                align-items: center;
+                justify-content: center;
+                width: 35%;
+            }
+        }
+
+        .button{
+
+            
+            button{
+                position:absolute;
+                
+                width: 5%;
+                height: 5vh;
+            }
+        }
+
+        .learn-more{
+            transform: rotate(90deg);
+            color: white;
+        }
+
+    }
+    .image-on-background{
+        display: flex;
+        padding-top: 100px;
+        justify-content: right;
+
+
+
+        
+        img{
+            position: absolute;
+            
+        }
+    }
+
+    
+}

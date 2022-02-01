@@ -1,0 +1,55 @@
+.home{
+
+    .get-started-img{
+
+        img{
+            width: 100vw;
+            height: 90vh;
+            position: relative;
+        }
+    }
+
+    .home-purple-background-text{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .tech{
+
+            
+            h2{
+                position:absolute;
+                
+                font-size: 4em;
+                align-items: center;
+                justify-content: center;
+                width: 25%;
+            }
+        }
+
+        p{
+            position:absolute;
+           
+            font-size: 2em;
+            align-items: center;
+            justify-content: center;
+            width: 35%;
+        }
+
+        button{
+            position:absolute;
+           
+            width: 5%;
+            height: 5vh;
+        }
+
+        img{
+            position: absolute;
+           
+        }
+    }
+
+    
+}
