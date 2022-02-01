@@ -27,7 +27,7 @@ export default class Home extends Component {
                     </div>
 
                     <div className="advantage">
-                        
+
                     </div>
 
                     <p>
@@ -43,6 +43,8 @@ export default class Home extends Component {
                    <div className="learn-more">
                        LEARN MORE
                    </div>
+
+                   
 
 
 

@@ -68,9 +68,14 @@ export default class Header extends Component {
                   </div>
 
                   <div className="get-started">
-                    <h2>
-                      GET STARTED
-                    </h2>
+
+
+                    <div className="nav-link-wrapper">
+                      <NavLink to="/talk-to-us" activeClassName="nav-link-active">
+                            Get Started
+                      </NavLink>
+
+                    </div>
                   </div>
                 </div>
               </div>
