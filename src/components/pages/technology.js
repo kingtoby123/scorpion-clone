@@ -3,6 +3,8 @@ import PurpleHomeBackground from "../../../static/assets/img/purple-homeBackgrou
 import imgPurpleHomeBackground from "../../../static/assets/img/img-purple-homeBackground.jpg"
 import secondSectionTech from "../../../static/assets/img/second-section-best-tech.png"
 
+
+
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -10,6 +12,10 @@ export default class Home extends Component {
         this.state = {}
         
         this.routeChange = this.routeChange.bind(this);
+        this.routeChangeLeadManagement = this.routeChangeLeadManagement.bind(this);
+        this.routeChangeMobileApp = this.routeChangeMobileApp.bind(this);
+        this.routeChangeCaseManagement = this.routeChangeCaseManagement.bind(this);
+        this.routeChangeReporting = this.routeChangeReporting.bind(this);
     }
 
 
@@ -17,6 +23,23 @@ export default class Home extends Component {
         const path = '/get-started';
         this.props.history.push(path);
       }
+
+    routeChangeLeadManagement(){
+        const path = '/marketing';
+        this.props.history.push(path);
+    }
+    routeChangeMobileApp(){
+        const path = '/mobileApp';
+        this.props.history.push(path);
+    }
+    routeChangeCaseManagement(){
+        const path = '/casemanagement';
+        this.props.history.push(path);
+    }
+    routeChangeReporting(){
+        const path = '/reporting';
+        this.props.history.push(path);
+    }
 
 
 
@@ -73,28 +96,149 @@ export default class Home extends Component {
 
 
                 <div className="second-section-tech">
-                    
 
-                    <div className="best-technology">
-                        <div className="left-side">
-                            <h1>
-                                The Best Technology To Grow Your Practice
-                            </h1>
+                    <div className="box">
 
-                            <p>
-                                Scorpion provides the best technology to save you time and grow your legal practice.
-                            </p>
 
-                            <p>
-                                Our technology helps you connect better with your clients, find new customers, hire the right people, and improve your lead flow with results you can trust.
-                            </p>
+
+                        <div className="best-technology">
+                            <div className="left-side">
+                                <h1>
+                                    The Best Technology To Grow Your Practice
+                                </h1>
+
+                                <p>
+                                    Scorpion provides the best technology to save you time and grow your legal practice.
+                                </p>
+
+                                <p>
+                                    Our technology helps you connect better with your clients, find new customers, hire the right people, and improve your lead flow with results you can trust.
+                                </p>
+                            </div>
+
+                            <div className="right-side">
+                                <img src={secondSectionTech} alt="best-tech" />
+                            </div>
                         </div>
 
-                        <div className="right-side">
-                            <img src={secondSectionTech} alt="best-tech" />
-                        </div>
+                        <div className="bottom-section">
+                            <div className="second-section-popups">
 
+                                <div className="second-section-popups-text">
+
+                                    <p>
+                                        Take Advantage of Scorpion Technology
+                                    </p>
+
+                                </div>
+
+                                <div className="second-section-popups-button">
+
+
+
+                                    <button onClick={this.routeChangeLeadManagement}>
+                                        <p>
+                                            Lead Management
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeMobileApp}>
+                                        <p>
+                                            Mobile App
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeReporting }>
+                                        <p>
+                                            Reporting
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeCaseManagement}>
+                                        <p>
+                                            Case Management
+                                        </p>
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
+
+                </div>
+                <div className="second-section-tech">
+
+                    <div className="box">
+
+
+
+                        <div className="best-technology">
+                            <div className="left-side">
+                                <h1>
+                                    The Best Technology To Grow Your Practice
+                                </h1>
+
+                                <p>
+                                    Scorpion provides the best technology to save you time and grow your legal practice.
+                                </p>
+
+                                <p>
+                                    Our technology helps you connect better with your clients, find new customers, hire the right people, and improve your lead flow with results you can trust.
+                                </p>
+                            </div>
+
+                            <div className="right-side">
+                                <img src={secondSectionTech} alt="best-tech" />
+                            </div>
+                        </div>
+
+                        <div className="bottom-section">
+                            <div className="second-section-popups">
+
+                                <div className="second-section-popups-text">
+
+                                    <p>
+                                        Take Advantage of Scorpion Technology
+                                    </p>
+
+                                </div>
+
+                                <div className="second-section-popups-button">
+
+
+
+                                    <button onClick={this.routeChangeLeadManagement}>
+                                        <p>
+                                            Lead Management
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeMobileApp}>
+                                        <p>
+                                            Mobile App
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeReporting }>
+                                        <p>
+                                            Reporting
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeCaseManagement}>
+                                        <p>
+                                            Case Management
+                                        </p>
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
                 

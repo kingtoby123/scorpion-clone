@@ -11,6 +11,9 @@ import Home from './pages/home';
 import Header from './navigation/header';
 import Footer from './navigation/footer';
 import GetStarted from './pages/get-started';
+import MobileApp from './pages/mobileApp';
+import Reporting from './pages/reporting';
+import CaseManagement from './pages/caseManagement';
 
 
 
@@ -31,6 +34,9 @@ export default class App extends Component {
             <Route path="/who-we-are" component={WhoWeAre}/>
             <Route path="/talk-to-us" component={TalkToUs}/>
             <Route path="/get-started" component={GetStarted}/>
+            <Route path="/mobileApp" component={MobileApp}/>
+            <Route path="/caseManagement" component={CaseManagement}/>
+            <Route path="/reporting" component={Reporting}/>
 
           </Switch>
             <Footer/>
