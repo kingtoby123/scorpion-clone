@@ -88,7 +88,7 @@
         display: flex;
         justify-content: center;
         
-        .box{
+        .second-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             display: flex;
@@ -146,9 +146,11 @@
                         
                         button{
                             height: 200px;
-                            width:450px; ;
+                            width:358px; 
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
-                            border-radius:25px ;
+                            border-radius:10px ;
+                            color: white;
+
                             p{
                                 width: 80%;
                                 font-size: 2em;
@@ -167,13 +169,13 @@
             }
         }
     }
-    .second-section-tech{
+    .third-section-tech{
         padding-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         
-        .box{
+        .third-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             display: flex;
@@ -188,12 +190,7 @@
                 justify-content: center;
                 
                 .left-side{
-                    height: 400px;
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    align-items: center;
-                    padding-left: 100px;
-                    padding-top: 100px;
+                   
                     
                     h1{
                         font-size: 4rem;
@@ -203,13 +200,31 @@
                         font-size: 2em;
                     }
                 }
+
+                .right-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+
+                    h1{
+                        font-size: 4rem;
+                    }
+
+                    p{
+                        font-size: 2em;
+                    }
+
+                }
             }
             
             .bottom-section{
                 display: flex;
                 width: 100%;
                 
-                .second-section-popups{
+                .third-section-popups{
                     
                     display: flex;
                     flex-direction: column;
@@ -222,7 +237,7 @@
                         font-size: 2.5em;
                     }
                     
-                    .second-section-popups-button{
+                    .third-section-popups-button{
                         display: flex;
                         align-items: center;
                         justify-content: space-evenly;
@@ -234,6 +249,7 @@
                             width:450px; ;
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
                             border-radius:25px ;
+                            color: white;
                             p{
                                 width: 80%;
                                 font-size: 2em;

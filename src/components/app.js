@@ -14,6 +14,10 @@ import GetStarted from './pages/get-started';
 import MobileApp from './pages/mobileApp';
 import Reporting from './pages/reporting';
 import CaseManagement from './pages/caseManagement';
+import LocalMarketingPlatform from './pages/local-Marketing-Platform';
+import MarketingTools from './pages/marketingTools';
+import ReviewManagement from './pages/reviewManagement';
+import WebsiteManagement from './pages/websiteManagement';
 
 
 
@@ -37,6 +41,10 @@ export default class App extends Component {
             <Route path="/mobileApp" component={MobileApp}/>
             <Route path="/caseManagement" component={CaseManagement}/>
             <Route path="/reporting" component={Reporting}/>
+            <Route path="/localMarketingPlatform" component={LocalMarketingPlatform}/>
+            <Route path="/marketingTools" component={MarketingTools}/>
+            <Route path="/reviewManagement" component={ReviewManagement}/>
+            <Route path="/websiteManagement" component={WebsiteManagement}/>
 
           </Switch>
             <Footer/>

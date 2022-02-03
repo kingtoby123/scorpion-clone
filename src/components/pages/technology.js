@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PurpleHomeBackground from "../../../static/assets/img/purple-homeBackground.jpg"
 import imgPurpleHomeBackground from "../../../static/assets/img/img-purple-homeBackground.jpg"
 import secondSectionTech from "../../../static/assets/img/second-section-best-tech.png"
+import thirdSectionTech from "../../../static/assets/img/third-section-best-tech.png"
 
 
 
@@ -16,6 +17,10 @@ export default class Home extends Component {
         this.routeChangeMobileApp = this.routeChangeMobileApp.bind(this);
         this.routeChangeCaseManagement = this.routeChangeCaseManagement.bind(this);
         this.routeChangeReporting = this.routeChangeReporting.bind(this);
+        this.routeChangeLocalMarketingPlatform = this.routeChangeLocalMarketingPlatform.bind(this);
+        this.routeChangeMarketingTools = this.routeChangeMarketingTools.bind(this);
+        this.routeChangeReviewManagement = this.routeChangeReviewManagement.bind(this);
+        this.routeChangeWebsiteManagement = this.routeChangeWebsiteManagement.bind(this);
     }
 
 
@@ -38,6 +43,23 @@ export default class Home extends Component {
     }
     routeChangeReporting(){
         const path = '/reporting';
+        this.props.history.push(path);
+    }
+
+    routeChangeLocalMarketingPlatform(){
+        const path = '/LocalMarketingPlatform';
+        this.props.history.push(path);
+    }
+    routeChangeMarketingTools(){
+        const path = '/marketingTools';
+        this.props.history.push(path);
+    }
+    routeChangeReviewManagement(){
+        const path = '/reviewManagement';
+        this.props.history.push(path);
+    }
+    routeChangeWebsiteManagement(){
+        const path = '/websiteManagement';
         this.props.history.push(path);
     }
 
@@ -96,11 +118,7 @@ export default class Home extends Component {
 
 
                 <div className="second-section-tech">
-
-                    <div className="box">
-
-
-
+                    <div className="second-section-tech-box">
                         <div className="best-technology">
                             <div className="left-side">
                                 <h1>
@@ -168,68 +186,73 @@ export default class Home extends Component {
 
 
                 </div>
-                <div className="second-section-tech">
 
-                    <div className="box">
+                <div className="third-section-tech">
+
+                    <div className="third-section-tech-box">
 
 
 
                         <div className="best-technology">
                             <div className="left-side">
-                                <h1>
-                                    The Best Technology To Grow Your Practice
-                                </h1>
-
-                                <p>
-                                    Scorpion provides the best technology to save you time and grow your legal practice.
-                                </p>
-
-                                <p>
-                                    Our technology helps you connect better with your clients, find new customers, hire the right people, and improve your lead flow with results you can trust.
-                                </p>
+                                <img src={thirdSectionTech} alt="best-tech" />
                             </div>
 
                             <div className="right-side">
-                                <img src={secondSectionTech} alt="best-tech" />
+
+                                <h1>
+                                    Manage Your Practice With The Right Technology
+                                </h1>
+
+                                <p>
+                                    Lead management, payments, reporting, and hiring are all crucial pieces of growing and managing a firm. Technology can help carry the load and improve how you manage your business.
+
+                                </p>                                
+
+                                <p>
+                                    Scorpion technology helps with all of your firm’s needs. Our team will give you the tools to improve your lead flow, communicate with your clients, and strategize how you spend your marketing dollars. All with real-time reporting and results you can trust.
+
+                                </p>
+
                             </div>
                         </div>
 
                         <div className="bottom-section">
-                            <div className="second-section-popups">
+                            <div className="third-section-popups">
 
-                                <div className="second-section-popups-text">
+                                <div className="third-section-popups-text">
 
                                     <p>
-                                        Take Advantage of Scorpion Technology
+                                        Make Running Your Firm Easier
                                     </p>
 
                                 </div>
 
-                                <div className="second-section-popups-button">
+                                <div className="third-section-popups-button">
 
 
 
-                                    <button onClick={this.routeChangeLeadManagement}>
+                                    <button onClick={this.routeChangeLocalMarketingPlatform}>
                                         <p>
-                                            Lead Management
+                                            Local Marketing Platform
                                         </p>
                                     </button>
 
-                                    <button onClick={this.routeChangeMobileApp}>
+                                    <button onClick={this.routeChangeMarketingTools}>
                                         <p>
-                                            Mobile App
+                                            Marketing Tools
                                         </p>
                                     </button>
 
-                                    <button onClick={this.routeChangeReporting }>
+                                    <button onClick={this.routeChangeReviewManagement }>
                                         <p>
-                                            Reporting
+                                            Review Management
                                         </p>
                                     </button>
 
-                                    <button onClick={this.routeChangeCaseManagement}>
+                                    <button onClick={this.routeChangeWebsiteManagement}>
                                         <p>
-                                            Case Management
+                                            Website Management
                                         </p>
                                     </button>
 
