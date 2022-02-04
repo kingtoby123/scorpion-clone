@@ -3,6 +3,7 @@ import PurpleHomeBackground from "../../../static/assets/img/purple-homeBackgrou
 import imgPurpleHomeBackground from "../../../static/assets/img/img-purple-homeBackground.jpg"
 import secondSectionTech from "../../../static/assets/img/second-section-best-tech.png"
 import thirdSectionTech from "../../../static/assets/img/third-section-best-tech.png"
+import fourthSectionTech from "../../../static/assets/img/fourth-section-best-tech.png"
 
 
 
@@ -21,6 +22,12 @@ export default class Home extends Component {
         this.routeChangeMarketingTools = this.routeChangeMarketingTools.bind(this);
         this.routeChangeReviewManagement = this.routeChangeReviewManagement.bind(this);
         this.routeChangeWebsiteManagement = this.routeChangeWebsiteManagement.bind(this);
+
+
+        this.routeChangeChatAndText = this.routeChangeChatAndText.bind(this);
+        this.routeChangeEmailMarketing = this.routeChangeEmailMarketing.bind(this);
+        this.routeChangeOnlineScheduling = this.routeChangeOnlineScheduling.bind(this);
+        this.routeChangeAppointmentReminders = this.routeChangeAppointmentReminders.bind(this);
     }
 
 
@@ -60,6 +67,22 @@ export default class Home extends Component {
     }
     routeChangeWebsiteManagement(){
         const path = '/websiteManagement';
+        this.props.history.push(path);
+    }
+    routeChangeChatAndText(){
+        const path = '/chatAndText';
+        this.props.history.push(path);
+    }
+    routeChangeEmailMarketing(){
+        const path = '/emailMarketing';
+        this.props.history.push(path);
+    }
+    routeChangeOnlineScheduling(){
+        const path = '/onlineScheduling';
+        this.props.history.push(path);
+    }
+    routeChangeAppointmentReminders(){
+        const path = '/appointmentReminders';
         this.props.history.push(path);
     }
 
@@ -253,6 +276,76 @@ export default class Home extends Component {
                                     <button onClick={this.routeChangeWebsiteManagement}>
                                         <p>
                                             Website Management
+                                        </p>
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div className="fourth-section-tech">
+                    <div className="fourth-section-tech-box">
+                        <div className="best-technology">
+                            <div className="left-side">
+                                <h1>
+                                    Save Time With Scorpion Technology
+                                </h1>
+
+                                <p>
+                                    Growing your practice takes a lot of time. It helps to find the right technology so you can grow more quickly and communicate effectively with your clients.
+                                </p>
+
+                                <p>
+                                    Scorpion provides you with tools to grow at the speed you want. We connect you with your clients through a beautiful website, a customer relationship management system, and live chat. We also help you find new clients with tools to grow, such as search engine optimization, paid advertising, email marketing, and artificial intelligence.
+                                </p>
+                            </div>
+
+                            <div className="right-side">
+                                <img src={fourthSectionTech} alt="best-tech" />
+                            </div>
+                        </div>
+
+                        <div className="bottom-section">
+                            <div className="fourth-section-popups">
+
+                                <div className="fourth-section-popups-text">
+
+                                    <p>
+                                        Gain Time Back With The Right Technology
+                                    </p>
+
+                                </div>
+
+                                <div className="fourth-section-popups-button">
+
+
+
+                                    <button onClick={this.routeChangeChatAndText}>
+                                        <p>
+                                            Chat & Text
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeEmailMarketing}>
+                                        <p>
+                                            Email Marketing
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeOnlineScheduling }>
+                                        <p>
+                                            Online Scheduling
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeAppointmentReminders}>
+                                        <p>
+                                            Appointment Reminders
                                         </p>
                                     </button>
 

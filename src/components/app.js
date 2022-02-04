@@ -18,6 +18,10 @@ import LocalMarketingPlatform from './pages/local-Marketing-Platform';
 import MarketingTools from './pages/marketingTools';
 import ReviewManagement from './pages/reviewManagement';
 import WebsiteManagement from './pages/websiteManagement';
+import ChatAndText from './pages/chatAndText';
+import EmailMarketing from './pages/emailMarketing';
+import OnlineScheduling from './pages/onlineScheduling';
+import AppointmentReminders from './pages/appointmentReminders';
 
 
 
@@ -45,6 +49,10 @@ export default class App extends Component {
             <Route path="/marketingTools" component={MarketingTools}/>
             <Route path="/reviewManagement" component={ReviewManagement}/>
             <Route path="/websiteManagement" component={WebsiteManagement}/>
+            <Route path="/chatAndText" component={ChatAndText}/>
+            <Route path="/emailMarketing" component={EmailMarketing}/>
+            <Route path="/onlineScheduling" component={OnlineScheduling}/>
+            <Route path="/appointmentReminders" component={AppointmentReminders}/>
 
           </Switch>
             <Footer/>
