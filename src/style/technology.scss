@@ -278,6 +278,7 @@
         .fourth-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
+            padding-top: 50px;
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -353,6 +354,142 @@
                     
                     
                 }
+            }
+        }
+    }
+
+    .fifth-section-tech{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .fifth-section-tech-box{
+            background-color: rgb(242, 242, 245);
+            width: 93vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .best-technology{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 80vh;
+                width: 90vw;
+                justify-content: center;
+                
+                .left-side{
+                   
+                    
+                    h1{
+                        font-size: 4rem;
+                    }
+                    
+                    p{
+                        font-size: 2em;
+                    }
+                }
+
+                .right-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+
+                    h1{
+                        font-size: 4rem;
+                    }
+
+                    p{
+                        font-size: 2em;
+                    }
+
+                }
+            }
+            
+            .bottom-section{
+                display: flex;
+                width: 100%;
+                
+                .fifth-section-popups{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10%;
+                    width: 100%;
+                    
+                    p{
+                        font-size: 2.5em;
+                    }
+                    
+                    .fifth-section-popups-button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        
+                        button{
+                            height: 200px;
+                            width:450px; ;
+                            background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                            border-radius:25px ;
+                            color: white;
+                            p{
+                                width: 80%;
+                                font-size: 2em;
+                            }
+                            
+                            &:hover {
+                                background-color: rgb(37, 8, 199);
+                                cursor: pointer;
+                            }
+                        }
+                    } 
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+
+    .sixth-tech-section{
+        padding-top: 100px;
+        width: 100vw;
+        .sixth-tech-section-box{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 115px;
+                border-radius: 100px;
+            }
+            .sixth-tech-section-first-text{
+                width: 54%;
+                p{
+                    font-size: 2.5rem;
+                }
+
+            }
+
+            .sixth-tech-section-second-text{
+                p{
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+
+
+            }
+            .sixth-tech-section-picture{
+
             }
         }
     }

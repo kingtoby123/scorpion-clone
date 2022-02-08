@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import purpleHomeBackground from "../../../static/assets/img/purple-homeBackground.jpg"
-import imgPurpleHomeBackground from "../../../static/assets/img/img-purple-homeBackground.jpg"
+import purpleHomeBackground from "../../../static/assets/tech-section/purple-homeBackground.jpg"
+import imgPurpleHomeBackground from "../../../static/assets/tech-section/img-purple-homeBackground.jpg"
 
 export default class Home extends Component {
     constructor(props) {

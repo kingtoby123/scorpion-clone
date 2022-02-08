@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import PurpleHomeBackground from "../../../static/assets/img/purple-homeBackground.jpg"
-import imgPurpleHomeBackground from "../../../static/assets/img/img-purple-homeBackground.jpg"
-import secondSectionTech from "../../../static/assets/img/second-section-best-tech.png"
-import thirdSectionTech from "../../../static/assets/img/third-section-best-tech.png"
-import fourthSectionTech from "../../../static/assets/img/fourth-section-best-tech.png"
+import PurpleHomeBackground from "../../../static/assets/tech-section/purple-homeBackground.jpg"
+import imgPurpleHomeBackground from "../../../static/assets/tech-section/img-purple-homeBackground.jpg"
+import secondSectionTech from "../../../static/assets/tech-section/second-section-best-tech.png"
+import thirdSectionTech from "../../../static/assets/tech-section/third-section-best-tech.png"
+import fourthSectionTech from "../../../static/assets/tech-section/fourth-section-best-tech.png"
+import fifthSectionTech from "../../../static/assets/tech-section/fifth-section-best-tech.png"
+import sixthSectionTech from "../../../static/assets/tech-section/sixth-tech-section.jpg"
 
 
 
@@ -28,6 +30,8 @@ export default class Home extends Component {
         this.routeChangeEmailMarketing = this.routeChangeEmailMarketing.bind(this);
         this.routeChangeOnlineScheduling = this.routeChangeOnlineScheduling.bind(this);
         this.routeChangeAppointmentReminders = this.routeChangeAppointmentReminders.bind(this);
+        this.routeChangeAdvertising = this.routeChangeAdvertising.bind(this);
+        this.routeChangeMarketInsight = this.routeChangeMarketInsight.bind(this);
     }
 
 
@@ -79,6 +83,25 @@ export default class Home extends Component {
     }
     routeChangeOnlineScheduling(){
         const path = '/onlineScheduling';
+        this.props.history.push(path);
+    }
+    routeChangeAppointmentReminders(){
+        const path = '/appointmentReminders';
+        this.props.history.push(path);
+    }
+    routeChangeAdvertising(){
+        const path = '/advertising';
+        this.props.history.push(path);
+    }
+
+    routeChangeMarketInsight(){
+        const path = '/marketInsight';
+        this.props.history.push(path);
+    }
+
+
+    routeChangeAppointmentReminders(){
+        const path = '/appointmentReminders';
         this.props.history.push(path);
     }
     routeChangeAppointmentReminders(){
@@ -315,7 +338,7 @@ export default class Home extends Component {
 
                                 <div className="fourth-section-popups-text">
 
-                                    <p>
+                                     <p>
                                         Gain Time Back With The Right Technology
                                     </p>
 
@@ -357,6 +380,112 @@ export default class Home extends Component {
 
 
                 </div>
+
+                <div className="fifth-section-tech">
+
+                    <div className="fifth-section-tech-box">
+
+
+
+                        <div className="best-technology">
+                            <div className="left-side">
+                                <img src={fifthSectionTech} alt="best-tech" />
+                            </div>
+
+                            <div className="right-side">
+
+                                <h1>
+                                    Artificial Intelligence For Better Decision Making
+                                </h1>
+
+                                <p>
+                                    The days of making decisions with guesswork are over.
+
+                                </p>                                
+
+                                <p>
+                                    Grow your legal practice with artificial intelligence that helps you have smarter advertising, understand your clients better, and reduces the manual work you have to do.
+
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div className="bottom-section">
+                            <div className="fifth-section-popups">
+
+                                <div className="fifth-section-popups-text">
+
+                                    <p>
+                                        Let AI Boost Your Growth
+                                    </p>
+
+                                </div>
+
+                                <div className="fifth-section-popups-button">
+
+
+
+                                    <button onClick={this.routeChangeAdvertising}>
+                                        <p>
+                                            Advertising
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeMarketInsight}>
+                                        <p>
+                                            Marketing Insight
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeReviewManagement }>
+                                        <p>
+                                            Review Management
+                                        </p>
+                                    </button>
+
+                                    <button onClick={this.routeChangeWebsiteManagement}>
+                                        <p>
+                                            Website Management
+                                        </p>
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div className="sixth-tech-section">
+                    <div className="sixth-tech-section-box">
+                        <div className="sixth-tech-section-first-text">
+                            <p>
+                                “Scorpion means an extension of my family. Without them, I wouldn’t be opening my fifth location. I wouldn’t be where I’m at with the ability to take more time off and not worry about whether we have enough calls coming in, or enough leads."
+                            </p>
+                        </div>
+
+                        <div className="sixth-tech-section-picture">
+                            <img src={sixthSectionTech} alt="sixth-section-tech" />
+                        </div>
+
+                        <div className="sixth-tech-section-second-text">
+                            <p>
+                                Joy Owenby
+                            </p>
+                        </div>
+
+                        <div className="sixth-tech-section-third-text">
+                            <p>
+                                Owner & Managing Member, Owenby Law, P.A.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
                 
             </div>
         )

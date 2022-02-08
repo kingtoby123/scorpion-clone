@@ -22,6 +22,8 @@ import ChatAndText from './pages/chatAndText';
 import EmailMarketing from './pages/emailMarketing';
 import OnlineScheduling from './pages/onlineScheduling';
 import AppointmentReminders from './pages/appointmentReminders';
+import Advertising from './pages/advertising';
+import MarketInsight from './pages/marketInsight';
 
 
 
@@ -53,6 +55,8 @@ export default class App extends Component {
             <Route path="/emailMarketing" component={EmailMarketing}/>
             <Route path="/onlineScheduling" component={OnlineScheduling}/>
             <Route path="/appointmentReminders" component={AppointmentReminders}/>
+            <Route path="/advertising" component={Advertising}/>
+            <Route path="/marketInsight" component={MarketInsight}/>
 
           </Switch>
             <Footer/>
