@@ -1,0 +1,672 @@
+.marketing-wrapper{
+    .first-section-marketing{
+        height: 1000px;
+    
+        .get-started-img{
+            position: absolute;
+            
+            img{
+                width: 100vw;
+                height: 90vh;
+                position: relative;
+            }
+        }
+        
+        .marketing-purple-background-marketing{
+            position: absolute;
+            display: grid;
+            justify-content: left;
+            align-items: center;
+            height: 90%;
+            padding-left: 50px;
+            width: 100%;
+            
+            .marketing{
+                
+                
+                h2{
+                    position:absolute;
+                    
+                    font-size: 4em;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    width: 25%;
+                }
+            }
+            
+            .advantage{
+                
+                
+                p{
+                    position:absolute;
+                    color: white;
+                    font-size: 2em;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35%;
+                }
+            }
+            
+            .button{
+                
+                
+                button{
+                    position:absolute;
+                    
+                    width: 5%;
+                    height: 5vh;
+                }
+            }
+            
+            .learn-more{
+                transform: rotate(90deg);
+                color: white;
+            }
+            
+            .get-started{
+                color:white;
+            }
+        }
+        .image-on-background{
+            display: flex;
+            padding-top: 100px;
+            justify-content: right;
+            
+            
+            
+            img{
+                position: absolute;
+                
+            }
+        }
+    }
+
+    .second-section-marketing{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .second-section-marketing-box{
+            background-color: rgb(242, 242, 245);
+            width: 93vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .best-marketing{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 80vh;
+                width: 90vw;
+                justify-content: center;
+                
+                .left-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+                    
+                    h1{
+                        font-size: 4rem;
+                    }
+                    
+                    p{
+                        font-size: 2em;
+                    }
+                }
+            }
+            
+            .bottom-section{
+                display: flex;
+                width: 100%;
+                
+                .second-section-popups{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10%;
+                    width: 100%;
+                    
+                    p{
+                        font-size: 2.5em;
+                    }
+                    
+                    .second-section-popups-button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        
+                        button{
+                            height: 200px;
+                            width:358px; 
+                            background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                            border-radius:10px ;
+                            color: white;
+
+                            p{
+                                width: 80%;
+                                font-size: 2em;
+                            }
+                            
+                            &:hover {
+                                background-color: rgb(37, 8, 199);
+                                cursor: pointer;
+                            }
+                        }
+                    } 
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+    .third-section-marketing{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .third-section-marketing-box{
+            background-color: rgb(242, 242, 245);
+            width: 93vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .best-marketing{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 80vh;
+                width: 90vw;
+                justify-content: center;
+                
+                .left-side{
+                   
+                    
+                    h1{
+                        font-size: 4rem;
+                    }
+                    
+                    p{
+                        font-size: 2em;
+                    }
+                }
+
+                .right-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+
+                    h1{
+                        font-size: 4rem;
+                    }
+
+                    p{
+                        font-size: 2em;
+                    }
+
+                }
+            }
+            
+            .bottom-section{
+                display: flex;
+                width: 100%;
+                
+                .third-section-popups{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10%;
+                    width: 100%;
+                    
+                    p{
+                        font-size: 2.5em;
+                    }
+                    
+                    .third-section-popups-button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        
+                        button{
+                            height: 200px;
+                            width:450px; ;
+                            background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                            border-radius:25px ;
+                            color: white;
+                            p{
+                                width: 80%;
+                                font-size: 2em;
+                            }
+                            
+                            &:hover {
+                                background-color: rgb(37, 8, 199);
+                                cursor: pointer;
+                            }
+                        }
+                    } 
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+
+    .fourth-section-marketing{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .fourth-section-marketing-box{
+            background-color: rgb(242, 242, 245);
+            width: 93vw;
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .best-marketing{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 80vh;
+                width: 90vw;
+                justify-content: center;
+                
+                .left-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+                    
+                    h1{
+                        font-size: 4rem;
+                    }
+                    
+                    p{
+                        font-size: 2em;
+                    }
+                }
+            }
+            
+            .bottom-section{
+                display: flex;
+                width: 100%;
+                
+                .fourth-section-popups{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10%;
+                    width: 100%;
+                    
+                    p{
+                        font-size: 2.5em;
+                    }
+                    
+                    .fourth-section-popups-button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        
+                        button{
+                            height: 200px;
+                            width:358px; 
+                            background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                            border-radius:10px ;
+                            color: white;
+
+                            p{
+                                width: 80%;
+                                font-size: 2em;
+                            }
+                            
+                            &:hover {
+                                background-color: rgb(37, 8, 199);
+                                cursor: pointer;
+                            }
+                        }
+                    } 
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+
+    .fifth-section-marketing{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .fifth-section-marketing-box{
+            background-color: rgb(242, 242, 245);
+            width: 93vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .best-marketing{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 80vh;
+                width: 90vw;
+                justify-content: center;
+                
+                .left-side{
+                   
+                    
+                    h1{
+                        font-size: 4rem;
+                    }
+                    
+                    p{
+                        font-size: 2em;
+                    }
+                }
+
+                .right-side{
+                    height: 400px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-top: 100px;
+
+                    h1{
+                        font-size: 4rem;
+                    }
+
+                    p{
+                        font-size: 2em;
+                    }
+
+                }
+            }
+            
+            .bottom-section{
+                display: flex;
+                width: 100%;
+                
+                .fifth-section-popups{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10%;
+                    width: 100%;
+                    
+                    p{
+                        font-size: 2.5em;
+                    }
+                    
+                    .fifth-section-popups-button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        
+                        button{
+                            height: 200px;
+                            width:450px; ;
+                            background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                            border-radius:25px ;
+                            color: white;
+                            p{
+                                width: 80%;
+                                font-size: 2em;
+                            }
+                            
+                            &:hover {
+                                background-color: rgb(37, 8, 199);
+                                cursor: pointer;
+                            }
+                        }
+                    } 
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+
+    .sixth-marketing-section{
+        padding-top: 100px;
+        width: 100vw;
+        .sixth-marketing-section-box{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 115px;
+                border-radius: 100px;
+            }
+            .sixth-marketing-section-first-text{
+                width: 54%;
+                p{
+                    font-size: 2.5rem;
+                }
+
+            }
+
+            .sixth-marketing-section-second-text{
+                p{
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+
+
+            }
+            
+        }
+    }
+
+    .seventh-marketing-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-top: 120px;
+        // background-color: rgb(83, 60, 211);
+        background-image: linear-gradient(to bottom, rgb(1, 46, 92), rgb(33, 33, 105) 60%);
+
+
+
+
+        .seventh-marketing-section-box{
+            position: absolute;
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            height: 30%;
+
+            .trusted{
+                p{
+                    position: relative;
+                    color: lightgray;
+                    font-weight: bold;
+                    font-size: 2rem;
+                }
+
+
+
+            }
+            .thousands{
+                p{
+                    position: relative;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 2rem;
+                }
+
+
+
+            }
+            .amazing{
+                p{
+                    position: relative;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 2rem;
+                }
+
+
+
+            }
+
+        }
+        .seventh-image-tech{
+            img{
+                width: 200px;
+                height: 100px;
+            }
+        }
+    }
+
+.eigth-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    .eigth-section-box-top{
+        padding-top: 70px;
+        width: 40%;
+        p{
+            font-weight: bold;
+            font-size: 4rem;
+            text-align: center;
+
+        }
+
+    }
+
+    .eigth-section-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 70vh;
+
+
+
+
+        .eigth-section-box-left{
+            width: 43%;
+            height: 100%;
+            background-color: rgb(243, 241, 241);
+
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            p{
+                font-size: 2rem;
+                width: 60%;
+            }
+            
+
+            img{
+                // padding-top: 200px;
+                padding-right: 100px;
+            }
+
+            
+            button{
+                height: 60px;
+                width:150px; 
+                background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                border-radius: 10px ;
+                color: white;
+                p{
+                    width: 80%;
+                    font-size: 2em;
+                }
+                
+                &:hover {
+                    background-color: rgb(37, 8, 199);
+                    cursor: pointer;
+                }
+            }
+
+            
+        }
+
+        .eigth-section-box-right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+
+            background-color: rgb(243, 241, 241);
+            width: 43%;
+            height: 100%;
+
+            
+
+            p{
+                font-size: 2rem;
+                width: 60%;
+            }
+
+            button{
+                height: 60px;
+                width:150px; 
+                background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                border-radius:10px ;
+                color: white;
+                p{
+                    width: 80%;
+                    font-size: 2em;
+                }
+                
+                &:hover {
+                    background-color: rgb(37, 8, 199);
+                    cursor: pointer;
+                }
+            }
+
+
+
+            
+        }
+
+    }
+}
+}
