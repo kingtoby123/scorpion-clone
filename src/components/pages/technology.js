@@ -6,6 +6,25 @@ import thirdSectionTech from "../../../static/assets/tech-section/third-section-
 import fourthSectionTech from "../../../static/assets/tech-section/fourth-section-best-tech.png"
 import fifthSectionTech from "../../../static/assets/tech-section/fifth-section-best-tech.png"
 import sixthSectionTech from "../../../static/assets/tech-section/sixth-tech-section.jpg"
+import seventhSectionTech from "../../../static/assets/tech-section/seventh-tech-section.png"
+import seventhSectionTechTwo from "../../../static/assets/tech-section/seventh-tech-section-two.png"
+import seventhSectionTechThree from "../../../static/assets/tech-section/seventh-tech-section-three.png"
+import seventhSectionTechFour from "../../../static/assets/tech-section/seventh-tech-section-four.png"
+import seventhSectionTechFive from "../../../static/assets/tech-section/seventh-tech-section-five.png"
+import seventhSectionTechSix from "../../../static/assets/tech-section/seventh-tech-section-six.png"
+import seventhSectionTechSeven from "../../../static/assets/tech-section/seventh-tech-section-seven.png"
+import seventhSectionTechEight from "../../../static/assets/tech-section/seventh-tech-section-eight.png"
+import seventhSectionTechNine from "../../../static/assets/tech-section/seventh-tech-section-nine.png"
+import seventhSectionTechTwelve from "../../../static/assets/tech-section/seventh-tech-section-twelve.png"
+import seventhSectionTechThirteen from "../../../static/assets/tech-section/seventh-tech-section-thirteen.png"
+import seventhSectionTechFourteen from "../../../static/assets/tech-section/seventh-tech-section-fourteen.png"
+import seventhSectionTechFifteen from "../../../static/assets/tech-section/seventh-tech-section-fifteen.png"
+import seventhSectionTechSixteen from "../../../static/assets/tech-section/seventh-tech-section-sixteen.png"
+import seventhSectionTechSeventeen from "../../../static/assets/tech-section/seventh-tech-section-seventeen.png"
+import seventhSectionTechEighteen from "../../../static/assets/tech-section/seventh-tech-section-eighteen.png"
+import seventhSectionTechnineteen from "../../../static/assets/tech-section/seventh-tech-section-nineteen.png"
+import eigthSectionLeftSide from "../../../static/assets/tech-section/eigth-section-left-side.png"
+import eigthSectionRightSide from "../../../static/assets/tech-section/eigth-section-right-side.png"
 
 
 
@@ -482,6 +501,145 @@ export default class Home extends Component {
                                 Owner & Managing Member, Owenby Law, P.A.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div className="seventh-tech-section">
+
+                    <div className="seventh-tech-section-box">
+                        <div className="seventh-tech-section-box-text">
+                            <div className="trusted">
+                            <p>
+                                Trusted By
+                            </p>
+
+                            </div>
+
+                            <div className="thousands">
+                            <p>
+                                Thousands of Law Firms
+
+                            </p>
+
+                            </div>
+
+                            <div className="amazing">
+
+                            <p>
+                                Amazing things happen when your marketing works.
+                            </p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTech} alt="sevenSectionTech" />
+                    </div>
+
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechTwo} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechThree} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechFour} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechFive} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechSix} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechSeven} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechEight} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechNine} alt="sevenSectionTech" />
+                    </div>
+                   
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechTwelve} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechThirteen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechFourteen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechFifteen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechSixteen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechSeventeen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechEighteen} alt="sevenSectionTech" />
+                    </div>
+                    <div className="seventh-image-tech">
+                        <img src={seventhSectionTechnineteen} alt="sevenSectionTech" />
+                    </div>
+                </div>
+
+                <div className="eigth-section">
+                    
+                    <div className="eigth-section-box-top">
+
+                        <p>
+                            Make The Right Choice To Power Your Growth
+                        </p>
+
+                    </div>
+
+                    <div className="eigth-section-box">
+
+                        <div className="eigth-section-box-left">
+
+                            <h1>
+                                Scorpion Platform
+                            </h1>
+
+                            <p>
+                                 The technology and insights that you need to keep your business moving up.
+                            </p>
+
+                            <button>
+                                Get A Demo
+                            </button>
+
+                            <img src={eigthSectionLeftSide} alt="eighthSectionLeftSide" />
+
+
+                        </div>
+
+                        <div className="eigth-section-box-right">
+                            <h1>
+                                Marketing Services 
+                            </h1>
+
+                            <p>
+                                Dedicated experts who are focused on getting you results. 
+
+                            </p>
+
+                            <button>
+                                Schedule a Consultation
+                            </button>
+
+
+                            <img src={eigthSectionRightSide} alt="eighthSectionRightSide" />
+
+                        </div>
+
                     </div>
                 </div>
 
