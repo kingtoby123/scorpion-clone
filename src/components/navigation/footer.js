@@ -91,37 +91,45 @@ export default class Footer extends Component {
 
                     </div>
 
-                    <div className="footer-bottom-section">
+                    <div className="footer-bottom-section-wrapper">
 
-                        <div className="left-side">
-
-                            <div className="nav-link">
-                                Search Our Site
-                            </div>
-
-                            <div className="nav-link">
-                                Site Map
-                            </div>
-
-                            <div className="nav-link">
-                                Privacy Policy
-                            </div>
-
-                            <div className="nav-link">
-                                Accessibility Statement
-                            </div>
-
-                        </div>
-
-                        <div className="right-side">
-
-                            <div className="nav-link">
-                                Scorpion © 2022 All Rights Reserved.
-                            </div>
-
+                        <div className="line-break">
+                            ----------------------------------------------------
                         </div>
 
 
+                        <div className="footer-bottom-section">
+
+                            <div className="left-side">
+
+                                <div className="nav-link">
+                                    Search Our Site
+                                </div>
+
+                                <div className="nav-link">
+                                    Site Map
+                                </div>
+
+                                <div className="nav-link">
+                                    Privacy Policy
+                                </div>
+
+                                <div className="nav-link">
+                                    Accessibility Statement
+                                </div>
+
+                            </div>
+
+                            <div className="right-side">
+
+                                <div className="nav-link">
+                                    Scorpion © 2022 All Rights Reserved.
+                                </div>
+
+                            </div>
+
+
+                        </div>
                     </div>
 
                 </div>

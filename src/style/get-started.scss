@@ -1,0 +1,97 @@
+.get-started-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    .get-started-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .get-started-heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .get-started-heading-top{
+                padding-top: 100px;
+                p{
+                    font-size: 2.5rem;
+                }
+                
+            }
+            
+        }
+        
+        .get-started-bottom-section-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 200px;
+            .get-started-bottom-section{
+                background-color: lightblue;
+                width: 80%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: center;
+                align-items: center;
+                
+                .get-started-bottom-section-box{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    justify-content: center;
+                    align-items: center;
+
+                    .left-side{
+                        .input-boxes{
+                            
+                        }
+                        
+                        .policy-notice{
+                            
+                        }
+                        
+                        .button-get-started{
+                            
+                        }
+                    }
+                    
+                    .right-side{
+                        .right-side-heading{
+                            
+                        }
+                    }
+                    
+                    .right-side-bottom-section{
+                        .right-side-bottom-left{
+                            
+                            .phone{
+                                
+                            }
+                            
+                            .location{
+                                
+                                .headquarters{
+                                    
+                                }
+                                
+                                .map-plus-direction{
+                                    
+                                }
+                            }
+                            
+                            .right-side-bottom-right{
+                                
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

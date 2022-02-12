@@ -71,7 +71,7 @@ export default class Header extends Component {
 
 
                     <div className="nav-link-wrapper">
-                      <NavLink to="/talk-to-us" activeClassName="nav-link-active">
+                      <NavLink to="/get-started" activeClassName="nav-link-active">
                             Get Started
                       </NavLink>
 
