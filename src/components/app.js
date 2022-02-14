@@ -24,6 +24,7 @@ import OnlineScheduling from './pages/onlineScheduling';
 import AppointmentReminders from './pages/appointmentReminders';
 import Advertising from './pages/advertising';
 import MarketInsight from './pages/marketInsight';
+import PrivacyPolicy from './pages/privacyPolicy';
 
 
 
@@ -43,7 +44,6 @@ export default class App extends Component {
             <Route path="/Resources" component={Resources}/>
             <Route path="/who-we-are" component={WhoWeAre}/>
             <Route path="/talk-to-us" component={TalkToUs}/>
-            <Route path="/get-started" component={GetStarted}/>
             <Route path="/mobileApp" component={MobileApp}/>
             <Route path="/caseManagement" component={CaseManagement}/>
             <Route path="/reporting" component={Reporting}/>
@@ -57,13 +57,11 @@ export default class App extends Component {
             <Route path="/appointmentReminders" component={AppointmentReminders}/>
             <Route path="/advertising" component={Advertising}/>
             <Route path="/marketInsight" component={MarketInsight}/>
+            <Route path="/privacyPolicy" component={PrivacyPolicy}/>
+            <Route path="/get-started" component={GetStarted}/>
 
           </Switch>
-            <Footer/>
-
-
-
-
+          <Footer/>
 
         </Router>
         

@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import Footer from '../navigation/footer'
+
+
+
 import PurpleHomeBackground from "../../../static/assets/tech-section/purple-homeBackground.jpg"
 import imgPurpleHomeBackground from "../../../static/assets/tech-section/img-purple-homeBackground.jpg"
 import secondSectionTech from "../../../static/assets/tech-section/second-section-best-tech.png"
@@ -648,4 +652,8 @@ export default class Home extends Component {
             </div>
         )
     }
+
+
 }
+
+

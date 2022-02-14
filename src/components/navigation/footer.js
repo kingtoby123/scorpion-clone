@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+import getStartedBackground from "../../../static/assets/get-started/get-started-background.jpg"
+
+
 export default class Footer extends Component {
     constructor(props) {
         super(props)
@@ -12,6 +15,12 @@ export default class Footer extends Component {
             <div className="footer-wrapper">
 
                 <div className="footer-wrapper-box">
+
+                    <div className="footer-background-image">
+
+                        <img src={getStartedBackground} alt="getStartedBackground" />
+
+                    </div>
                     
                     <div className="footer-heading">
 

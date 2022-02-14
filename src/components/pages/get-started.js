@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-import getStarted from "../../../static/assets/tech-section/get-started.png"
+import getStarted from "../../../static/assets/get-started/get-started.png"
+import getStartedBackground from "../../../static/assets/get-started/get-started-background.jpg"
 
 
 export default class GetStarted extends Component {
@@ -16,6 +17,10 @@ export default class GetStarted extends Component {
         return (
 
             <div className="get-started-wrapper">
+
+                <div className="image-get-started">
+                    <img src={getStartedBackground} alt="getStartedBackground" />
+                </div>
                 <div className="get-started-box">
 
                     <div className="get-started-heading">
@@ -64,10 +69,12 @@ export default class GetStarted extends Component {
 
                                     <div className="policy-notice">
                                         <p>
-                                            By submitting your information you agree that Scorpion may process your information in accordance with its privacy policy.
+                                        
+                                            By submitting your information you agree that Scorpion may process your information in accordance with its <a href="/privacyPolicy">privacy policy</a>  
                                         </p>
-                                    </div>
 
+                                    </div>
+                                    
                                     <div className="button-get-started">
                                         <button>
                                             Get Started
@@ -76,64 +83,64 @@ export default class GetStarted extends Component {
                                     
                                 </div>
 
-                            <div className="right-side">
+                                <div className="right-side">
 
-                                <div className="right-side-heading">
+                                    <div className="right-side-box">
 
-                                    <p>
-                                        Let us know who you are and our team will be in touch shortly on how we can help your business grow with best in class technology and marketing services.
-                                    </p>
 
-                                    
-                                </div>
-
-                                <div className="right-side-bottom-section">
-
-                                    <div className="right-side-bottom-left">
-
-                                        <div className="phone">
+                                        <div className="right-side-heading">
 
                                             <p>
-                                                (866) 344-8852
+                                                Let us know who you are and our team will be in touch shortly on how we can help your business grow with best in class technology and marketing services.
                                             </p>
+
+                                            
                                         </div>
 
-                                        <div className="location">
+                                        <div className="right-side-bottom-section">
 
-                                            <div className="headquarters">
-                                                <p>
-                                                    Headquarters
-                                                    3301 N Thanksgiving Way
-                                                    Suite 500
-                                                    Lehi, UT 84043
-                                                </p>
+                                            <div className="right-side-bottom-left">
+
+
+                                                <div className="location">
+
+
+                                                    <div className="details">
+
+                                                        <p>
+                                                            (866) 344-8852
+                                                        </p>
+
+                                                        <p>
+
+                                                            Headquarters
+                                                            3301 N Thanksgiving Way
+                                                            Suite 500
+                                                            Lehi, UT 84043
+                                                        
+                                                        </p>
+
+                                                        <a href="https://www.google.com/maps/place/3301+N+Thanksgiving+Way,+Lehi,+UT+84043/@40.4292,-111.8933137,17z/data=!3m1!4b1!4m5!3m4!1s0x87528025c2833cd9:0x7d4662f7e8bb8354!8m2!3d40.4292!4d-111.891125?hl=en" >Map + Direction</a>
+
+                                                    </div>
+
+
+                                                </div>
 
                                             </div>
 
-                                            <div className="map-plus-direction">
-                                                <a href="https://www.google.com/maps/place/3301+N+Thanksgiving+Way,+Lehi,+UT+84043/@40.4292,-111.8933137,17z/data=!3m1!4b1!4m5!3m4!1s0x87528025c2833cd9:0x7d4662f7e8bb8354!8m2!3d40.4292!4d-111.891125?hl=en" >Map + Direction</a>
+                                            <div className="right-side-bottom-right">
+
+                                                <img src={getStarted} alt="getStarted" />
+
                                             </div>
 
                                         </div>
-
                                     </div>
 
-                                    <div className="right-side-bottom-right">
-
-                                        <img src={getStarted} alt="getStarted" />
-
-                                    </div>
-
-
-
-                                    
 
 
                                 </div>
-
-
-
-                            </div>
                             </div>
 
                             

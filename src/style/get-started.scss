@@ -5,18 +5,30 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    
+    .image-get-started{
+        height: 100vh;
+        position: relative;
+        img{
+            // width: 100vw;
+            // height: 100vh;
+            
+        }
+    }
     .get-started-box{
+        position: absolute;
+        height: 100vh;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+ 
         .get-started-heading{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             .get-started-heading-top{
-                padding-top: 100px;
                 p{
                     font-size: 2.5rem;
                 }
@@ -30,64 +42,125 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            padding-bottom: 200px;
             .get-started-bottom-section{
-                background-color: lightblue;
-                width: 80%;
-                height: 100%;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-content: center;
-                align-items: center;
+                background-image: linear-gradient(to bottom, rgba(8, 92, 189, 0.5), rgba(70, 64, 178, 0.55));
+
+                width: 90%;
+                height: 78vh;
+                padding-right: 50px;
                 
                 .get-started-bottom-section-box{
+                    width: 100%;
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     justify-content: center;
                     align-items: center;
 
+
                     .left-side{
+                        display: flex;
+                        flex-direction: column;
+                        height: 60%;
+                        align-items: center;
+                        justify-content: center;
                         .input-boxes{
+                            height: 14%;
+                            width: 90%;
+
+                            input{
+                                width: 90%;
+                                height: 50%;
+                            }
                             
                         }
                         
                         .policy-notice{
+                            display: flex;
+                            justify-content: left;
+                            width: 90%;
+
+                            p{
+                                width: 50%;
+                            }
                             
                         }
                         
                         .button-get-started{
+                            // padding-top: 25px;
+                            display: flex;
+                            justify-content: center;
+                            width: 100%;
+
+                            button{
+                                height: 60px;
+                                width:150px; 
+                                background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
+                                border-radius: 10px ;
+                                color: white;
+                                p{
+                                    width: 80%;
+                                    font-size: 2em;
+                                }
+                                
+                                &:hover {
+                                    background-color: rgb(37, 8, 199);
+                                    cursor: pointer;
+                                }
+                            }
                             
                         }
                     }
                     
                     .right-side{
+                        display: flex;
+                        flex-direction: column;
+
                         .right-side-heading{
+                            display: flex;
+                            width: 100%;
+                            p{
+                                font-size: 2rem;
+                            }
                             
                         }
-                    }
-                    
-                    .right-side-bottom-section{
-                        .right-side-bottom-left{
+
                             
-                            .phone{
+                        .right-side-bottom-section{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+
+                            .right-side-bottom-left{
+                                height: 50%;
+                                display: grid;
+                                align-items: center;
                                 
-                            }
-                            
-                            .location{
-                                
-                                .headquarters{
+                                .location{
+                                    display: grid;
+                                    align-items: center;
+                                    height: 100%;
+                                    
+                                    .details{
+
+                                        height: 100%;
+                                        align-items: center;
+                                        justify-content: center;
+
+
+                                        p{
+                                            display: grid;
+                                            align-items: center;
+                                            height: 50%;
+                                        }
+                                        
+                                    }
                                     
                                 }
                                 
-                                .map-plus-direction{
+                                .right-side-bottom-right{
                                     
                                 }
-                            }
-                            
-                            .right-side-bottom-right{
                                 
                             }
-                            
                         }
                     }
                 }
