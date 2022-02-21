@@ -1,24 +1,22 @@
 .get-started-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1300px;
     width: 100vw;
     
     .image-get-started{
-        height: 100vh;
+        height: 2000px;
+        align-items: center;
         position: relative;
         img{
-            // width: 100vw;
-            // height: 100vh;
+            width: 1890px;
+            height: 1304px;
             
         }
     }
     .get-started-box{
         position: absolute;
-        height: 100vh;
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -26,11 +24,12 @@
         .get-started-heading{
             display: flex;
             flex-direction: column;
+            width: 45%;
             align-items: center;
-            justify-content: center;
             .get-started-heading-top{
                 p{
                     font-size: 2.5rem;
+                    color: white;
                 }
                 
             }
@@ -42,11 +41,12 @@
             justify-content: center;
             align-items: center;
             width: 100%;
+            padding-bottom: 100px;
             .get-started-bottom-section{
                 background-image: linear-gradient(to bottom, rgba(8, 92, 189, 0.5), rgba(70, 64, 178, 0.55));
 
                 width: 90%;
-                height: 78vh;
+                height: 100vh;
                 padding-right: 50px;
                 
                 .get-started-bottom-section-box{
@@ -60,16 +60,29 @@
                     .left-side{
                         display: flex;
                         flex-direction: column;
-                        height: 60%;
+                        height: 80%;
                         align-items: center;
                         justify-content: center;
-                        .input-boxes{
-                            height: 14%;
+
+
+                        .name{
+                            display: flex;
+                            justify-content: left;
                             width: 90%;
+                            p{
+                                color: rgb(201, 201, 201);
+
+                            }
+                        }
+
+
+                        .input-boxes{
+                            width: 90%;
+                            height: 100%;
 
                             input{
                                 width: 90%;
-                                height: 50%;
+                                height: 100%;
                             }
                             
                         }
@@ -81,6 +94,7 @@
 
                             p{
                                 width: 50%;
+                                color: rgb(194, 192, 192);
                             }
                             
                         }
@@ -144,6 +158,7 @@
                                         height: 100%;
                                         align-items: center;
                                         justify-content: center;
+                                        color: white;
 
 
                                         p{
@@ -157,6 +172,11 @@
                                 }
                                 
                                 .right-side-bottom-right{
+
+                                    // img{
+
+                                    //     height: 60px;
+                                    // }
                                     
                                 }
                                 

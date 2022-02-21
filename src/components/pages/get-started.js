@@ -18,9 +18,12 @@ export default class GetStarted extends Component {
 
             <div className="get-started-wrapper">
 
+
                 <div className="image-get-started">
                     <img src={getStartedBackground} alt="getStartedBackground" />
                 </div>
+
+
                 <div className="get-started-box">
 
                     <div className="get-started-heading">
@@ -47,20 +50,54 @@ export default class GetStarted extends Component {
 
                                 <div className="left-side">
 
-                                    <div className="input-boxes">
-                                        <input type="text" />                                
+
+
+                                    <div className="name">
+                                        <p>
+                                            First Name*
+                                        </p>
                                     </div>
 
                                     <div className="input-boxes">
                                         <input type="text" />                                
                                     </div>
 
-                                    <div className="input-boxes">
-                                        <input type="text" />                                
+                                    <div className="name">
+                                        <p>
+                                            Last Name*
+                                        </p>
                                     </div>
 
                                     <div className="input-boxes">
                                         <input type="text" />                                
+                                    </div>
+
+                                    <div className="name">
+                                        <p>
+                                            Email*
+                                        </p>
+                                    </div>
+
+                                    <div className="input-boxes">
+                                        <input type="text" />                                
+                                    </div>
+
+                                    
+
+
+                                    <div className="name">
+                                        <p>
+                                            Phone*
+                                        </p>
+                                    </div>
+                                    <div className="input-boxes">
+                                        <input type="text" />                                
+                                    </div>
+
+                                    <div className="name">
+                                        <p>
+                                            Business Name*
+                                        </p>
                                     </div>
 
                                     <div className="input-boxes">
@@ -132,6 +169,7 @@ export default class GetStarted extends Component {
                                             <div className="right-side-bottom-right">
 
                                                 <img src={getStarted} alt="getStarted" />
+                                                {/* hello */}
 
                                             </div>
 

@@ -1,31 +1,30 @@
-.marketing-wrapper{
-    .first-section-marketing{
-        height: 1000px;
+.home{
+    .first-section-tech{
+        height: 100vh;
     
         .get-started-img{
             position: absolute;
             
             img{
                 width: 100vw;
-                height: 90vh;
-                position: relative;
+                height: 100vh;
             }
         }
         
-        .marketing-purple-background-marketing{
-            position: absolute;
+        .home-purple-background-text{
             display: grid;
             justify-content: left;
             align-items: center;
-            height: 90%;
+            height: 100vh;
             padding-left: 50px;
             width: 100%;
             
-            .marketing{
+            .tech{
+                height: 80%;
                 
                 
                 h2{
-                    position:absolute;
+                    // position:absolute;
                     
                     font-size: 4em;
                     align-items: center;
@@ -36,6 +35,8 @@
             }
             
             .advantage{
+                height: 100%;
+
                 
                 
                 p{
@@ -82,20 +83,20 @@
         }
     }
 
-    .second-section-marketing{
+    .second-section-tech{
         padding-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         
-        .second-section-marketing-box{
+        .second-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             display: flex;
             justify-content: center;
             flex-direction: column;
 
-            .best-marketing{
+            .best-technology{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
@@ -122,6 +123,7 @@
             
             .bottom-section{
                 display: flex;
+                height: 100%;
                 width: 100%;
                 
                 .second-section-popups{
@@ -130,7 +132,7 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    height: 10%;
+                    height: 100%;
                     width: 100%;
                     
                     p{
@@ -146,11 +148,10 @@
                         
                         button{
                             height: 200px;
-                            width:358px; 
+                            width:400px; ;
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
-                            border-radius:10px ;
+                            border-radius:25px ;
                             color: white;
-
                             p{
                                 width: 80%;
                                 font-size: 2em;
@@ -169,20 +170,20 @@
             }
         }
     }
-    .third-section-marketing{
+    .third-section-tech{
         padding-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         
-        .third-section-marketing-box{
+        .third-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             display: flex;
             justify-content: center;
             flex-direction: column;
 
-            .best-marketing{
+            .best-technology{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
@@ -230,7 +231,8 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    height: 10%;
+                    height: 100%;
+
                     width: 100%;
                     
                     p{
@@ -246,7 +248,7 @@
                         
                         button{
                             height: 200px;
-                            width:450px; ;
+                            width:400px; ;
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
                             border-radius:25px ;
                             color: white;
@@ -269,13 +271,13 @@
         }
     }
 
-    .fourth-section-marketing{
+    .fourth-section-tech{
         padding-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         
-        .fourth-section-marketing-box{
+        .fourth-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             padding-top: 50px;
@@ -283,7 +285,7 @@
             justify-content: center;
             flex-direction: column;
 
-            .best-marketing{
+            .best-technology{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
@@ -318,12 +320,17 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    height: 10%;
+                    height: 100%;
                     width: 100%;
-                    
-                    p{
-                        font-size: 2.5em;
+
+                    .fourth-section-popups-text{
+                        padding-top: 500px;
+                        
+                        p{
+                            font-size: 2.5em;
+                        }
                     }
+                    
                     
                     .fourth-section-popups-button{
                         display: flex;
@@ -334,11 +341,10 @@
                         
                         button{
                             height: 200px;
-                            width:358px; 
+                            width:400px; ;
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
-                            border-radius:10px ;
+                            border-radius:25px ;
                             color: white;
-
                             p{
                                 width: 80%;
                                 font-size: 2em;
@@ -358,20 +364,20 @@
         }
     }
 
-    .fifth-section-marketing{
+    .fifth-section-tech{
         padding-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         
-        .fifth-section-marketing-box{
+        .fifth-section-tech-box{
             background-color: rgb(242, 242, 245);
             width: 93vw;
             display: flex;
             justify-content: center;
             flex-direction: column;
 
-            .best-marketing{
+            .best-technology{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
@@ -435,7 +441,7 @@
                         
                         button{
                             height: 200px;
-                            width:450px; ;
+                            width:400px; ;
                             background-image: linear-gradient(to bottom, rgb(0, 127, 253), rgb(100, 100, 227) 60%);
                             border-radius:25px ;
                             color: white;
@@ -458,10 +464,10 @@
         }
     }
 
-    .sixth-marketing-section{
+    .sixth-tech-section{
         padding-top: 100px;
         width: 100vw;
-        .sixth-marketing-section-box{
+        .sixth-tech-section-box{
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -472,7 +478,7 @@
                 width: 115px;
                 border-radius: 100px;
             }
-            .sixth-marketing-section-first-text{
+            .sixth-tech-section-first-text{
                 width: 54%;
                 p{
                     font-size: 2.5rem;
@@ -480,7 +486,7 @@
 
             }
 
-            .sixth-marketing-section-second-text{
+            .sixth-tech-section-second-text{
                 p{
                     font-size: 2rem;
                     font-weight: bold;
@@ -492,7 +498,7 @@
         }
     }
 
-    .seventh-marketing-section{
+    .seventh-tech-section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: space-evenly;
@@ -505,7 +511,7 @@
 
 
 
-        .seventh-marketing-section-box{
+        .seventh-tech-section-box{
             position: absolute;
             justify-content: center;
             display: flex;
@@ -578,6 +584,7 @@
         justify-content: space-evenly;
         width: 100vw;
         height: 70vh;
+        padding-bottom: 80px;
 
 
 

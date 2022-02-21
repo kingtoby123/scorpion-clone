@@ -7,7 +7,8 @@
     width: 100vw;
     position: sticky;
     height: 100px;
-    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(1, 15, 92), rgb(110, 87, 173) 60%);
+
     
     .left-side{
       display: flex;
@@ -33,16 +34,14 @@
         }
         
         a {
-          font-weight: 600;
+          // font-weight: 600;
           padding: 0.9;
           &:active,
           &:focus {
             outline: none;
           }
           
-          &:hover {
-            background-color: rgb(167, 80, 9);
-          }
+          
         }
         
         &:hover {
@@ -99,7 +98,7 @@
         font-weight: 500;
         border: 1px solid transparent;
         transition: all 0.5s ease-in-out;
-        color: rgb(228, 154, 18);
+        color: white;
         text-decoration: none;
         
         &:active,
@@ -108,15 +107,20 @@
         }
         
         &:hover {
-          background-color: rgb(167, 80, 9);
+          background-color: rgb(0, 127, 253);
+          transition: color 0.3s ease 0s;
+          text-decoration: none;
+          border-radius: 5px;
+
         }
       }
       
-      &:hover {
-        border-bottom: 1px solid black;
-      }
+      // &:hover {
+      //   border-bottom: 1px solid black;
+      // }
       
       .nav-link-active {
+        height: 100%;
         border-bottom: 1px solid black;
       }
     }

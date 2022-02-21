@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
+
+
+
 import PurpleHomeBackground from "../../../static/assets/tech-section/purple-homeBackground.jpg"
 import imgPurpleHomeBackground from "../../../static/assets/tech-section/img-purple-homeBackground.jpg"
-import secondSectionTech from "../../../static/assets/tech-section/second-section-best-tech.png"
-import thirdSectionTech from "../../../static/assets/tech-section/third-section-best-tech.png"
-import fourthSectionTech from "../../../static/assets/tech-section/fourth-section-best-tech.png"
-import fifthSectionTech from "../../../static/assets/tech-section/fifth-section-best-tech.png"
 import sixthSectionTech from "../../../static/assets/tech-section/sixth-tech-section.jpg"
 import seventhSectionTech from "../../../static/assets/tech-section/seventh-tech-section.png"
 import seventhSectionTechTwo from "../../../static/assets/tech-section/seventh-tech-section-two.png"
@@ -26,9 +25,14 @@ import seventhSectionTechnineteen from "../../../static/assets/tech-section/seve
 import eigthSectionLeftSide from "../../../static/assets/tech-section/eigth-section-left-side.png"
 import eigthSectionRightSide from "../../../static/assets/tech-section/eigth-section-right-side.png"
 
+import marketingSectionOne from "../../../static/assets/marketing/marketing-section-one.png"
+import marketingSectionTwo from "../../../static/assets/marketing/marketing-section-two.png"
+import marketingSectionThree from "../../../static/assets/marketing/marketing-section-three.png"
+import marketingSectionFour from "../../../static/assets/marketing/marketing-section-four.png"
 
 
-export default class Marketing extends Component {
+
+export default class Home extends Component {
     constructor(props) {
         super(props)
 
@@ -132,20 +136,19 @@ export default class Marketing extends Component {
 
     render() {
         return (
-            <div className="marketing-wrapper">
+            <div className="home">
                 
-                <div className="first-section-marketing">
-
+                <div className="first-section-tech">
 
                     <div className="get-started-img">
                         <img src={PurpleHomeBackground} alt="purple-background" />
                     </div>
 
-                    <div className="marketing-purple-background-marketing">
+                    <div className="home-purple-background-text">
 
-                        <div className="marketing">
+                        <div className="tech">
                             <h2>
-                                Technology For Your Business
+                                Marketing Services To Grow Your Law Firm
                             </h2>
 
                         </div>
@@ -153,15 +156,15 @@ export default class Marketing extends Component {
                         <div className="advantage">
 
                             <p>
-                                Take advantage of powerful technology to help your business grow. From marketing tools to AI-powered advertising, you've got it all with Scorpion.
+                                Scorpion partners with legal practices so they have the technology and guidance they need to grow without having to do it alone.
                             </p>
 
                         </div>
 
                         <div className="button">
 
-                        <button  onClick={this.routeChange} className="btn" type="submit">
-                                Get Started
+                            <button  onClick={this.routeChange} className="btn" type="submit">
+                                    Get Started
                             </button>
 
                         </div>
@@ -175,32 +178,29 @@ export default class Marketing extends Component {
                     </div>
 
 
-                    <div className="image-on-background">
-
-                        <img src={imgPurpleHomeBackground} alt="img" />
-                    </div>
+                    
                 </div>
 
 
-                <div className="second-section-marketing">
-                    <div className="second-section-marketing-box">
-                        <div className="best-marketing">
+                <div className="second-section-tech">
+                    <div className="second-section-tech-box">
+                        <div className="best-technology">
                             <div className="left-side">
                                 <h1>
-                                    The Best Technology To Grow Your Practice
+                                    Make The Best First Impression
                                 </h1>
 
                                 <p>
-                                    Scorpion provides the best technology to save you time and grow your legal practice.
+                                Your creative assets are the first thing your clients see online.
                                 </p>
 
                                 <p>
-                                    Our technology helps you connect better with your clients, find new customers, hire the right people, and improve your lead flow with results you can trust.
+                                At Scorpion, we help law firms with websites, advertising, landing pages, and video assets that show why your practice is respected and different from your competition.
                                 </p>
                             </div>
 
                             <div className="right-side">
-                                <img src={secondSectionTech} alt="best-tech" />
+                                <img src={marketingSectionOne} alt="best-tech" />
                             </div>
                         </div>
 
@@ -221,25 +221,25 @@ export default class Marketing extends Component {
 
                                     <button onClick={this.routeChangeLeadManagement}>
                                         <p>
-                                            Lead Management
+                                            Website Design
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeMobileApp}>
                                         <p>
-                                            Mobile App
+                                            Landing Pages
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeReporting }>
                                         <p>
-                                            Reporting
+                                            Advertising Assets
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeCaseManagement}>
                                         <p>
-                                            Case Management
+                                            Video Services
                                         </p>
                                     </button>
 
@@ -252,15 +252,15 @@ export default class Marketing extends Component {
 
                 </div>
 
-                <div className="third-section-marketing">
+                <div className="third-section-tech">
 
-                    <div className="third-section-marketing-box">
+                    <div className="third-section-tech-box">
 
 
 
-                        <div className="best-marketing">
+                        <div className="best-technology">
                             <div className="left-side">
-                                <img src={thirdSectionTech} alt="best-tech" />
+                                <img src={marketingSectionTwo} alt="best-tech" />
                             </div>
 
                             <div className="right-side">
@@ -299,25 +299,26 @@ export default class Marketing extends Component {
 
                                     <button onClick={this.routeChangeLocalMarketingPlatform}>
                                         <p>
-                                            Local Marketing Platform
+                                            Content Marketing
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeMarketingTools}>
                                         <p>
-                                            Marketing Tools
+                                            Digital Advertising
+                                          
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeReviewManagement }>
                                         <p>
-                                            Review Management
+                                            Search Engine Ranking
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeWebsiteManagement}>
                                         <p>
-                                            Website Management
+                                            Socail Media
                                         </p>
                                     </button>
 
@@ -330,9 +331,9 @@ export default class Marketing extends Component {
 
                 </div>
 
-                <div className="fourth-section-marketing">
-                    <div className="fourth-section-marketing-box">
-                        <div className="best-marketing">
+                <div className="fourth-section-tech">
+                    <div className="fourth-section-tech-box">
+                        <div className="best-technology">
                             <div className="left-side">
                                 <h1>
                                     Save Time With Scorpion Technology
@@ -348,7 +349,7 @@ export default class Marketing extends Component {
                             </div>
 
                             <div className="right-side">
-                                <img src={fourthSectionTech} alt="best-tech" />
+                                <img src={marketingSectionThree} alt="best-tech" />
                             </div>
                         </div>
 
@@ -369,25 +370,25 @@ export default class Marketing extends Component {
 
                                     <button onClick={this.routeChangeChatAndText}>
                                         <p>
-                                            Chat & Text
+                                            Advertising Strategy
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeEmailMarketing}>
                                         <p>
-                                            Email Marketing
+                                            Data Strategy
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeOnlineScheduling }>
                                         <p>
-                                            Online Scheduling
+                                            Marketing Strategy
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeAppointmentReminders}>
                                         <p>
-                                            Appointment Reminders
+                                            Marketing Playbook
                                         </p>
                                     </button>
 
@@ -400,15 +401,15 @@ export default class Marketing extends Component {
 
                 </div>
 
-                <div className="fifth-section-marketing">
+                <div className="fifth-section-tech">
 
-                    <div className="fifth-section-marketing-box">
+                    <div className="fifth-section-tech-box">
 
 
 
-                        <div className="best-marketing">
+                        <div className="best-technology">
                             <div className="left-side">
-                                <img src={fifthSectionTech} alt="best-tech" />
+                                <img src={marketingSectionFour} alt="best-tech" />
                             </div>
 
                             <div className="right-side">
@@ -447,27 +448,23 @@ export default class Marketing extends Component {
 
                                     <button onClick={this.routeChangeAdvertising}>
                                         <p>
-                                            Advertising
+                                            Dedicated Team
+
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeMarketInsight}>
                                         <p>
-                                            Marketing Insight
+                                            Growth Planning
                                         </p>
                                     </button>
 
                                     <button onClick={this.routeChangeReviewManagement }>
                                         <p>
-                                            Review Management
+                                            Opportunity Analysis
                                         </p>
                                     </button>
 
-                                    <button onClick={this.routeChangeWebsiteManagement}>
-                                        <p>
-                                            Website Management
-                                        </p>
-                                    </button>
 
                                 </div>
 
@@ -478,25 +475,25 @@ export default class Marketing extends Component {
 
                 </div>
 
-                <div className="sixth-marketing-section">
-                    <div className="sixth-marketing-section-box">
-                        <div className="sixth-marketing-section-first-text">
+                <div className="sixth-tech-section">
+                    <div className="sixth-tech-section-box">
+                        <div className="sixth-tech-section-first-text">
                             <p>
                                 “Scorpion means an extension of my family. Without them, I wouldn’t be opening my fifth location. I wouldn’t be where I’m at with the ability to take more time off and not worry about whether we have enough calls coming in, or enough leads."
                             </p>
                         </div>
 
-                        <div className="sixth-marketing-section-picture">
+                        <div className="sixth-tech-section-picture">
                             <img src={sixthSectionTech} alt="sixth-section-tech" />
                         </div>
 
-                        <div className="sixth-marketing-section-second-text">
+                        <div className="sixth-tech-section-second-text">
                             <p>
                                 Joy Owenby
                             </p>
                         </div>
 
-                        <div className="sixth-marketing-section-third-text">
+                        <div className="sixth-tech-section-third-text">
                             <p>
                                 Owner & Managing Member, Owenby Law, P.A.
                             </p>
@@ -504,10 +501,10 @@ export default class Marketing extends Component {
                     </div>
                 </div>
 
-                <div className="seventh-marketing-section">
+                <div className="seventh-tech-section">
 
-                    <div className="seventh-marketing-section-box">
-                        <div className="seventh-marketing-section-box-text">
+                    <div className="seventh-tech-section-box">
+                        <div className="seventh-tech-section-box-text">
                             <div className="trusted">
                             <p>
                                 Trusted By
@@ -648,4 +645,8 @@ export default class Marketing extends Component {
             </div>
         )
     }
+
+
 }
+
+

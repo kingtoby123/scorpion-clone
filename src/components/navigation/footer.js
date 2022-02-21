@@ -16,11 +16,7 @@ export default class Footer extends Component {
 
                 <div className="footer-wrapper-box">
 
-                    <div className="footer-background-image">
-
-                        <img src={getStartedBackground} alt="getStartedBackground" />
-
-                    </div>
+                    
                     
                     <div className="footer-heading">
 
@@ -101,11 +97,6 @@ export default class Footer extends Component {
                     </div>
 
                     <div className="footer-bottom-section-wrapper">
-
-                        <div className="line-break">
-                            ----------------------------------------------------
-                        </div>
-
 
                         <div className="footer-bottom-section">
 
